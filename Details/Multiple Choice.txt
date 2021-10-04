@@ -1,0 +1,26 @@
+180 Websites - Multiple Choice
+
+	1. 分類：
+		Begin Again: 
+			Boy - Lost Stars (Adam Levine)
+				https://www.youtube.com/watch?v=vyT-oGDnMqE
+			Girl - Lost Stars (Keira Knightley)
+				https://www.youtube.com/watch?v=sLTRSakuugs
+				
+		Love:
+			Lips - First Kiss
+				https://www.youtube.com/watch?v=IpbDHxCV29A&list=PL89EIU-yw8Yoi8djYHBOWZHiOfZkxHvmu
+			Heart - Undress Me
+				https://www.youtube.com/watch?v=pKZa-Kb4Nng&list=PL89EIU-yw8Yoi8djYHBOWZHiOfZkxHvmu&index=2
+				
+		Rock'n Roll
+			Avril Lavigne - Complicated
+				https://www.youtube.com/watch?v=5NPBIwQyPWE
+			Silbermond - Ja
+				https://www.youtube.com/watch?v=bOlq8roR6Tg
+				
+	2. First Page 按鈕大小：260px * 260px
+	   ai clipboard 大小：300px * 300px
+	   stroke weight: 10pt
+	   
+	

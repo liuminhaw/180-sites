@@ -1,0 +1,71 @@
+/*index of Color Dance*/
+/*css for window size of 1024*768 */
+
+header {
+	font-family: "Poiret One", Sans-serif;	
+	width: 400px;
+	height: 580px;
+	float: left;
+}
+#head {
+	margin-top: -10px;
+}
+#effect_bar {
+	text-align: left;
+	font-size: 14pt;
+	margin-left: 25px;
+	margin-top: 200px;
+}
+form {
+	font-size: 12pt;
+}
+.fontcolor {
+	color: blue;
+}
+
+#big_container {
+	width: 980px;
+	height: 580px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#main_container {
+	width: 580px;
+	height: 580px;
+	float: right;
+}
+.circle {
+	width: 8%;
+	height: 0px;
+	padding-top: 8%;
+	border-radius: 50%;
+	margin: 1%;
+	background-color: blue;
+	opacity: 0.7;
+	float: left;
+}
+
+section {
+	font-family: "Poiret One", Sans-serif;
+	position: absolute;
+	bottom: 40px;
+	left: 10px;
+	z-index: 1;
+}
+#section {
+	background-color: black;
+	padding: 1px 10px 1px 10px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	opacity: 0.7;
+	color: white;
+}
+#HideShowButton {
+	font-size: 18px;
+	border-bottom: thin solid blue;
+	cursor: pointer;
+	width: 150px; 
+	margin-left: 20px;
+	text-align: center;
+}

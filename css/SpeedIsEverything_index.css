@@ -1,0 +1,164 @@
+/*index of Speed is Everything*/
+/*for screen resolution about 1366 * 768*/
+
+#frame {
+	width: 1180px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	//border: 1px solid black;
+	position: relative;
+}
+nav {
+	text-align: right;
+	margin-top: 10px;
+}
+nav img {
+	width: 30px;
+	height: 30px;
+	margin-right: 60px;
+}
+#main_container {
+	width: 732px;
+	height: 343px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#left_container {
+	width: 343px;
+	height: 343px;
+	padding-right: 20px;
+	border-right: 1px solid black;
+	float: left;
+}
+#right_container {
+	width: 343px;
+	height: 343px;
+	padding-left: 20px;
+	border-left: 1px solid black;
+	float: right;
+}
+main {
+	margin-top: 30px;
+	font-family: "Tangerine",  cursive;
+	font-size: 30pt;
+	color: #6E6E6E;
+	text-align: center;
+}
+#timer {
+	display: none;
+}
+#button_container {
+	width: 580px;
+	display: inline-block;
+}
+.button {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.button:nth-of-type(2) {
+	border: 1px solid #F7BE81;
+	background: radial-gradient(#DF7401, #FE9A2E, white);
+}
+.button:nth-of-type(1) {
+	border: 1px solid #DA81F5;
+        background: radial-gradient(#BF00FF, #D358F7, white);	
+}
+.button:nth-of-type(3) {
+	border: 1px solid #A9D0F5;
+	background: radial-gradient(#0080FF, #58ACFA, white);
+}
+#button_container p {
+	font-family: "Marck Script";
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -15px;
+	font-size: 16pt;
+}
+article {
+	width: 300px;
+	font-size: 20pt;
+	margin-top: 150px;
+}
+article:nth-of-type(1) {
+	float: left;
+}
+article:nth-of-type(2) {
+	float: right;
+}
+#introductionButton {
+	width: 100px; 
+	margin-right: auto;
+	margin-left: auto;
+	cursor: default;
+}
+#readyButton {
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+}
+#introduction_box {
+	font-family: "Tangerine",  cursive;
+	font-size: 22pt;
+	width: 1000px;
+	height: 500px;
+	text-align: center;
+	background-color: white;
+	opacity: 0.7;
+	position: absolute;
+	z-index: 1;
+	bottom: 50px;
+	left: 90px;
+	display: none;
+}
+ul {
+	list-style-type: none;
+	margin-top: 200px;
+}
+li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#result_box {
+	font-family: "Marck Script";
+	text-align: center;
+	width: 450px;
+	height: 180px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #DF7401 #0080FF #BDBDBD #BF00FF; 
+	border-radius: 15px;
+	background-color: white;
+	opacity: 0.8;
+	position: absolute;
+	z-index: 2;
+	bottom: 230px;
+	left: 365px;
+	display: none;	
+}
+#result_box p {
+	font-size: 16pt;
+}
+#result_box h3 {
+	font-family: "Tangerine";
+	font-size: 22pt;
+	margin: 15px;
+}
+#result_box #doneButton {
+	cursor: pointer;
+	width: 60px;
+	margin: 15px auto;
+}
+#restartButton {
+	cursor: pointer;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>LMHaw - Tick Tock</title>
+	<link rel="stylesheet" href="../css/css_reset.css">
+	<link rel="stylesheet" href="../css/TickTock_index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="../javascript/TickTock_javascript.js"></script>
+	<!--[if It IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<[endif]-->
+</head>
+<body>
+	<header>
+		<img src="../images/TickTock/TickTock_Logo1.png" alt="Logo for the website" />
+	</header>
+	<div class="mainContainer">
+		<div class="selectionContainer">
+			<h4 id="chooseYear">Choose your birth year:</h4>
+			<h4 id="chooseMonth">Choose your birth month:</h4>
+			<h4 id="chooseDate">Choose your birth date:</h4>
+			<div class="yearContainer">
+			</div>
+			<div class="monthContainer">
+			</div>
+			<div class="dateContainer">
+			</div>
+			<div class="inputContainer">
+				<img id="birthYear" src="../images/TickTock/TickTock_BirthYear.png" alt="Press to choose the birth of year" />
+				<img id="birthMonth" src="../images/TickTock/TickTock_BirthMonth.png" alt="Press to choose the birth of month" />
+				<img id="birthDate" src="../images/TickTock/TickTock_BirthDate.png" alt="Press to choose the birth of date" />
+				<h3>Your Birth Date: 
+					<span class="guestYear">YYYY</span> - <span class="guestMonth">MM</span> - <span class="guestDate">DD</span>
+				</h3>
+				<div class="resultContainer">
+					<div class="result">
+						<p><span id="nowAge"></span>  years old</p>
+						<p><span id="daysLived"></span>  days lived</p>
+						<p><span id="daysToGo"></span>  days left before  <span id="expectAge"></span></p>
+					</div>
+					<div class="ageContainer">
+						<div class="ageSelect" data-number="70">
+							<img src="../images/TickTock/TickTock_Age70.png" alt="Press to compute with age 70" />
+						</div>
+						<div class="ageSelect" data-number="80">
+							<img src="../images/TickTock/TickTock_Age80.png" alt="Press to compute with age 80" />
+						</div>
+						<div class="ageSelect" data-number="90">
+							<img src="../images/TickTock/TickTock_Age90.png" alt="Press to compute with age 90" />
+						</div>
+						<div class="ageSelect" data-number="100">
+							<img src="../images/TickTock/TickTock_Age100.png" alt="Press to compute with age 100" />
+						</div>
+					</div>
+				</div>
+				<div class="warningContainer">
+					<p>Please make sure you had selected your birthday first.</p>
+				</div>
+				<div class="informationContainer">
+					<img id="submitButton" src="../images/TickTock/TickTock_Submit.png" alt="Submit button" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="instructionContainer">
+		<ul>
+			<li>Choose your Birthday</li>
+			<li>Click submit to calculate the result</li>
+		</ul>
+	</div>
+	<footer>
+		<h5 id="homepage">HomePage</h5>
+		<h5 id="blog">Blog</h5>
+		<h5 id="instruction">Instruction</h5>
+	</footer>
+</body>
+</html>

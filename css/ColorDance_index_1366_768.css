@@ -1,0 +1,62 @@
+/*index of ColorDance*/
+/*css for window size of 1366*768*/
+
+#big_container {
+	width: 1180px;
+	height: 580px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	position: relative;
+}
+header {
+	font-family: "Poiret One", Sans-serif;
+	width: 300px;
+	height: 580px;
+	float: left;
+}
+#effect_bar {
+	margin-top: 200px;
+	margin-left: 30px;
+}
+
+#main_container {
+	width: 580px;
+	height: 580px;
+	float: left;
+}
+.circle {
+	width: 8%;
+	height: 0px;
+	padding-top: 8%;
+	border-radius: 50%;
+	margin: 1%;
+	background-color: blue;
+	opacity: 0.7;
+	float: left;
+}
+
+section {
+	font-family: "Poiret One", Sans-serif;
+	width: 250px;
+	margin-left: 40px;
+	margin-right: 10px;
+	margin-top: 100px;
+	height: 580px;
+	float: right;
+}
+section h2 {
+	text-align: center;
+}
+#HideShowButton {
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	bottom: 50px;
+	right: 60px;
+	border-bottom: thin solid blue;
+	cursor: pointer;
+}
+.fontcolor {
+	color: blue;
+}

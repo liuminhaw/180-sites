@@ -1,0 +1,73 @@
+/*index of Time Day Date for window size 1024*768 and bigger*/
+
+.dayContainer {
+	position: relative;
+	width: 905px;
+	height: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+}
+.sevenDay {
+	font-size: 25px;
+}
+.instructionLine {
+	font-size: 12px;
+}
+.dateContainer {
+	position: relative;
+	width: 905px;
+	height: 510px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+.dayName {
+	font-size: 28px;
+}
+.previous_Container div h3, .next_Container div h3 {
+	font-size: 16px;
+}
+.dateNumber {
+	font-size: 25px;
+}
+.thisDay {
+	font-size: 33px;
+}
+.year_Container {
+	font-size: 25px;
+}
+.month_Container h4 {
+	font-size: 16px;
+}
+.timeContainer {
+	position: relative;
+	width: 905px;
+	height: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 33px;
+	padding-top: 16px;
+	font-family: "Archistico_Bold";
+}
+.latitude, .longitude {
+	font-size: 13px;
+}
+.cityName {
+	font-size: 16px;
+}
+.showTime {
+	font-size: 33px;
+}
+.showTime h3 {
+	font-size: 50px;
+}
+.timeContainer h6 {
+	font-size: 13px;
+}
+.city_Dot {
+	width: 8px;
+	height: 8px;
+	border: 1px solid #5D5D5D;
+}
+

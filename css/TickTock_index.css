@@ -1,0 +1,265 @@
+/* Tick Tock -- style sheet for website Tick Tock */
+@font-face {
+	font-family: "ComicSerif";
+	src: url("../Fonts/ComicSerif_Pro/hvd_comic_serif_pro-webfont.eot");
+	src: url("../Fonts/ComicSerif_Pro/hvd_comic_serif_pro-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/ComicSerif_Pro/hvd_comic_serif_pro-webfont.woff") format("woff"),
+	     url("../Fonts/ComicSerif_Pro/hvd_comic_serif_pro-webfont.ttf") format("truetype"),
+	     url("../Fonts/ComicSerif_Pro/hvd_comic_serif_pro-webfont.svg") format("svg");
+}
+@font-face {
+	font-family: "UnderwoodChampion";
+	src: url("../Fonts/UnderwoodChampion/underwood_champion-webfont.eot");
+	src: url("../Fonts/UnderwoodChampion/underwood_champion-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/UnderwoodChampion/underwood_champion-webfont.woff") format("woff"),
+	     url("../Fonts/UnderwoodChampion/underwood_champion-webfont.ttf") format("truetype"),
+	     url("../Fonts/UnderwoodChampion/underwood_champion-webfont.svg") format("svg");
+}
+
+* {
+	font-family: "ComicSerif";
+}
+
+html, body {
+	height: 100%;
+	min-height: 780px;
+}
+body {
+	//overflow-y: hidden;
+}
+
+div.yearContainer h5, div.monthContainer h5, div.dateContainer h5,
+img#birthYear, img#birthMonth, img#birthDate, img#submitButton, footer h5 {
+	cursor: pointer;
+}
+div.ageSelect {
+	cursor: crosshair;
+}
+
+header {
+	width: 1000px;
+	height: 80px;
+	margin: 0px auto;
+	background-color: white;
+}
+header img {
+	width: 460px;
+	height: 120px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+div.mainContainer {
+	width: 1000px;
+	height: calc(100% - 80px);
+	min-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(17, 0, 112);
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+div.selectionContainer {
+	position: relative;
+	top: 70px;
+	width: 1000px;
+	height: calc(100% - 70px);
+	min-height: 300px;
+	background-color: rgb(175, 254, 237);
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+div.selectionContainer h3 {
+	font-family: "UnderwoodChampion";
+	font-size: 24px;
+	font-weight: normal;
+	color: white;
+	margin-left: 100px;
+}
+div.selectionContainer h3 span {
+	font-family: "UnderwoodChampion";
+	font-size: 24px;
+}
+div.inputContainer {
+	position: relative;
+	top: 70px;
+	width: 1000px;
+	height: calc(100% - 70px);
+	min-height: 460px;
+	background-color: rgb(17, 0, 112);
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	box-shadow: 0px -5px 4px black;
+	transition-property: height, top;
+	transition-duration: 1.8s;
+}
+img#birthYear, img#birthMonth, img#birthDate {
+	position: relative;
+	left: 70px;
+	top: -35px;
+	width: 200px;
+	height: 40px;
+	margin-left: 10px;
+}
+div.informationContainer {
+	position: relative;
+	top: 30px;
+	width: 1000px;
+	height: calc(100% - 98px);
+	min-height: 60px;
+	background-color: rgb(175, 254, 237);
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	box-shadow: 0px -5px 4px black;
+	transition-property: height, top;
+	transition-duration: 1.8s;
+}
+div.informationContainer img {
+	position: relative;
+	left: 700px;
+	top: -36px;
+	width: 200px;
+	height: 40px;
+}
+div.yearContainer {
+	position: absolute;
+	width: 900px;
+	left: 50px;
+	top: 65px;
+	display: none;
+}
+div.monthContainer, div.dateContainer {
+	position: absolute;
+	width: 720px;
+	left: 140px;
+	top: 65px;
+	display: none;
+}
+h4#chooseYear, h4#chooseMonth, h4#chooseDate {	
+	font-family: "UnderwoodChampion";
+	position: absolute;
+	left: 50px;
+	top: 30px;
+	display: none;
+	font-size: 24px;	
+	color: rgb(17, 0, 112);
+}
+div.yearContainer h5, div.monthContainer h5, div.dateContainer h5 {
+	font-family: "UnderwoodChampion";
+	font-weight: normal;
+	font-size: 20px;
+	width: 60px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: rgb(17, 0, 112);
+	float: left;
+}
+div.dateContainer h6 {
+	font-family: "UnderwoodChampion";
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	color: rgb(17, 0, 112);
+}
+div.resultContainer {
+	position: absolute;
+	width: 900px;
+	height: 200px;
+	left: 100px;
+	top: 100px;
+	display: none;
+}
+div.warningContainer {
+	position: absolute;
+	width: 900px;
+	height: 50px;
+	left: 50px;
+	top: 100px;
+	text-align: center;
+	display: none;
+}
+div.warningContainer p {
+	font-family: "UnderwoodChampion";
+	font-size: 24px;
+	margin-top: 13px;
+	color: white;
+}
+div.result {
+	width: 720px;
+	height: 150px;
+	margin-top: 30px;
+	text-align: center;
+	float: left;
+}
+div.result p {
+	font-family: "UnderWoodChampion";
+	font-size: 30px;
+	margin-bottom: 25px;
+	color: white;
+}
+div.result p span {
+	font-family: "UnderwoodChampion";
+	color: rgb(254, 133, 234);
+	font-size: 34px;
+}
+div.ageContainer {
+	width: 180px;
+	height: 200px;
+	float: right;
+}
+div.ageSelect {
+	width: 130px;
+	height: 48px;
+	margin-left: 50px;
+	margin-bottom: 2px;	
+	background-color: rgb(175, 254, 237);
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	transition-property: width, margin-left;
+	transition-duration: 1s;
+}
+div.ageSelect img {
+	width: 48px;
+	height: 48px;
+	margin-left: 25px;
+}
+div.ageSelect:nth-of-type(4) img {
+	width: 68px;
+	height: 48px;
+}
+
+div.instructionContainer {
+	position: fixed;
+	bottom: 60px;
+	left: 80px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	background-color: rgba(254, 133, 234, 0.8);
+	border-radius: 100px;
+	display: none;
+}
+div.instructionContainer ul {
+	list-style-type: none;
+}
+div.instructionContainer ul li {
+	font-family: "UnderwoodChampion";
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 80px;
+	height: 80px;
+	background-color: rgb(254, 133, 234);
+	border-top-right-radius: 80px;
+}
+footer h5 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+

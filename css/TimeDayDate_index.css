@@ -1,0 +1,739 @@
+/*index of Time Day Date 1366*768*/
+@font-face {
+	font-family: "Archistico_Bold";
+	src: url("../Fonts/Archistico_Bold/archistico_bold-webfont.eot");
+	src: url("../Fonts/Archistico_Bold/archistico_bold-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/Archistico_Bold/archistico_bold-webfont.woff") format("woff"),
+	     url("../Fonts/Archistico_Bold/archistico_bold-webfont.ttf") format("truetype"),
+	     url("../Fonts/Archistico_Bold/archistico_bold-webfont.svg") format("svg");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Aleo_Light";
+	src: url("../Fonts/Aleo_Light/aleo-light-webfont.eot");
+	src: url("../Fonts/Aleo_Light/aleo-light-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/Aleo_Light/aleo-light-webfont.woff") format("woff"),
+	     url("../Fonts/Aleo_Light/aleo-light-webfont.ttf") format("truetype"),
+	     url("../Fonts/Aleo_Light/aleo-light-webfont.svg") format("svg");
+}
+
+* {
+	box-sizing: border-box;
+}
+.decorationBox {
+	position: absolute;
+	bottom: 14.754%;
+	height: 0.82%;
+	width: 20.183%;
+	border-radius: 1.364% / 60%;
+	opacity: 0.7;
+}
+.decorationBox:nth-of-type(22) {
+	left: 0%;
+}
+.decorationBox:nth-of-type(23) {
+	right: 0%;
+}
+.decorationBox_Sunday {
+	background: -webkit-linear-gradient(left, red, white);
+	background: -o-linear-gradient(right, red, white);
+	background: -moz-linear-gradient(right, red, white);
+	background: linear-gradient(to right, red, white);
+}
+.decorationBox_Monday {
+	background: -webkit-linear-gradient(left, orange, white);
+	background: -o-linear-gradient(right, orange, white);
+	background: -moz-linear-gradient(right, orange, white);
+	background: linear-gradient(to right, orange, white);
+}
+.decorationBox_Tuesday {
+	background: -webkit-linear-gradient(left, gold, white);
+	background: -o-linear-gradient(right, gold, white);
+	background: -moz-linear-gradient(right, gold, white);
+	background: linear-gradient(to right, gold, white);
+}
+.decorationBox_Wednesday {
+	background: -webkit-linear-gradient(left, green, white);
+	background: -o-linear-gradient(right, green, white);
+	background: -moz-linear-gradient(right, green, white);
+	background: linear-gradient(to right, green, white);
+}
+.decorationBox_Thursday {
+	background: -webkit-linear-gradient(left, royalblue, white);
+	background: -o-linear-gradient(right, royalblue, white);
+	background: -moz-linear-gradient(right, royalblue, white);
+	background: linear-gradient(to right, royalblue, white);
+}
+.decorationBox_Friday {
+	background: -webkit-linear-gradient(left, deepskyblue, white);
+	background: -o-linear-gradient(right, deepskyblue, white);
+	background: -moz-linear-gradient(right, deepskyblue, white);
+	background: linear-gradient(to right, deepskyblue, white);
+}
+.decorationBox_Saturday {
+	background: -webkit-linear-gradient(left, darkviolet, white);
+	background: -o-linear-gradient(right, darkviolet, white);
+	background: -moz-linear-gradient(right, darkviolet, white);
+	background: linear-gradient(to right, darkviolet, white);
+}
+.day {
+	position: absolute;
+	bottom: 15.574%;
+	width: 4.587%;
+	height: 6.557%;
+	border-top-left-radius: 50%  62.5%; 
+	border-top-right-radius: 50%  62.5%;
+}
+.day:nth-of-type(1) {
+	left: 22.936%;
+}
+.day:nth-of-type(2) {
+	left: 31.193%;
+}
+.day:nth-of-type(3) {
+	left: 39.449%;
+}
+.day:nth-of-type(4) {
+	left: 47.706%;
+}
+.day:nth-of-type(5) {
+	left: 55.963%;
+}
+.day:nth-of-type(6) {
+	left: 64.22%;
+}
+.day:nth-of-type(7) {
+	left: 72.477%;
+}
+.day_Bottom {
+	position: absolute;
+	bottom: 9.836%;
+	width: 4.587%;
+	height: 4.918%;
+	border-bottom-left-radius: 50% 83.333%;
+	border-bottom-right-radius: 50% 83.333%;
+}
+.day_Bottom:nth-of-type(15) {
+	left: 22.936%;
+	background: -webkit-linear-gradient(white, red 99%);
+	background: -o-linear-gradient(white, red 99%);
+	background: -moz-linear-gradient(white, red 99%);
+	background: linear-gradient(white, red 99%);
+}
+.day_Bottom:nth-of-type(16) {
+	left: 31.193%;
+	background: -webkit-linear-gradient(white, orange 99%);
+	background: -o-linear-gradient(white, orange 99%);
+	background: -moz-linear-gradient(white, orange 99%);
+	background: linear-gradient(white, orange 99%);
+}
+.day_Bottom:nth-of-type(17) {
+	left: 39.449%;
+	background: -webkit-linear-gradient(white, yellow 99%);
+	background: -o-linear-gradient(white, yellow 99%);
+	background: -moz-linear-gradient(white, yellow 99%);
+	background: linear-gradient(white, yellow 99%);
+}
+.day_Bottom:nth-of-type(18) {
+	left: 47.706%;
+	background: -webkit-linear-gradient(white, green 99%);
+	background: -o-linear-gradient(white, green 99%);
+	background: -moz-linear-gradient(white, green 99%);
+	background: linear-gradient(white, green 99%);
+}
+.day_Bottom:nth-of-type(19) {
+	left: 55.963%;
+	background: -webkit-linear-gradient(white, royalblue 99%);
+	background: -o-linear-gradient(white, royalblue 99%);
+	background: -moz-linear-gradient(white, royalblue 99%);
+	background: linear-gradient(white, royalblue 99%);
+}
+.day_Bottom:nth-of-type(20) {
+	left: 64.220%;
+	background: -webkit-linear-gradient(white, deepskyblue 99%);
+	background: -o-linear-gradient(white, deepskyblue 99%);
+	background: -moz-linear-gradient(white, deepskyblue 99%);
+	background: linear-gradient(white, deepskyblue 99%);
+}
+.day_Bottom:nth-of-type(21) {
+	left: 72.477%;
+	background: -webkit-linear-gradient(white, darkviolet 99%);
+	background: -o-linear-gradient(white, darkviolet 99%);
+	background: -moz-linear-gradient(white, darkviolet 99%);
+	background: linear-gradient(white, darkviolet 99%);
+}
+.sevenDay{
+	position: absolute;
+	font-family: "Archistico_Bold";
+	text-align: center;
+	width: 7.339%;
+	bottom: 23.770%;
+}
+.sevenDay:nth-of-type(8){
+	left: 21.560%;
+}
+.sevenDay:nth-of-type(9){
+	left: 29.816%;
+}
+.sevenDay:nth-of-type(10){
+	left: 38.073%;
+}
+.sevenDay:nth-of-type(11){
+	left: 46.330%;
+}
+.sevenDay:nth-of-type(12){
+	left: 54.587%;
+}
+.sevenDay:nth-of-type(13){
+	left: 62.844%;
+}
+.sevenDay:nth-of-type(14){
+	left: 71.101%;
+}
+.sunday {
+	background: -webkit-linear-gradient(red, white 99%);
+	background: -o-linear-gradient(red, white 99%);
+	background: -moz-linear-gradient(red, white 99%);
+	background: linear-gradient(red, white 99%);
+}
+.sunday_Trick {
+	background: -webkit-linear-gradient(orange, red 70%, white 99%);
+	background: -o-linear-gradient(orange, red 70%, white 99%);
+	background: -moz-linear-gradient(orange, red 70%, white 99%);
+	background: linear-gradient(orange, red 70%, white 99%);
+}
+.monday {
+	background: -webkit-linear-gradient(orange, white 99%);
+	background: -o-linear-gradient(orange, white 99%);
+	background: -moz-linear-gradient(orange, white 99%);
+	background: linear-gradient(orange, white 99%);
+}
+.monday_Trick {
+	background: -webkit-linear-gradient(yellow, orange 70%, white 99%);
+	background: -o-linear-gradient(yellow, orange 70%, white 99%);
+	background: -moz-linear-gradient(yellow, orange 70%, white 99%);
+	background: linear-gradient(yellow, orange 70%, white 99%);
+}
+.tuesday {
+	background: -webkit-linear-gradient(yellow, white 99%);
+	background: -o-linear-gradient(yellow, white 99%);
+	background: -moz-linear-gradient(yellow, white 99%);
+	background: linear-gradient(yellow, white 99%);
+}
+.tuesday_Trick {
+	background: -webkit-linear-gradient(green, yellow 70%, white 99%);
+	background: -o-linear-gradient(green, yellow 70%, white 99%);
+	background: -moz-linear-gradient(green, yellow 70%, white 99%);
+	background: linear-gradient(green, yellow 70%, white 99%);
+}
+.wednesday {
+	background: -webkit-linear-gradient(green, white 99%);
+	background: -o-linear-gradient(green, white 99%);
+	background: -moz-linear-gradient(green, white 99%);
+	background: linear-gradient(green, white 99%);
+}
+.wednesday_Trick {
+	background: -webkit-linear-gradient(royalblue, green 70%, white 99%);
+	background: -o-linear-gradient(royalblue, green 70%, white 99%);
+	background: -moz-linear-gradient(royalblue, green 70%, white 99%);
+	background: linear-gradient(royalblue, green 70%, white 99%);
+}
+.thursday {
+	background: -webkit-linear-gradient(royalblue, white 99%);
+	background: -o-linear-gradient(royalblue, white 99%);
+	background: -moz-linear-gradient(royalblue, white 99%);
+	background: linear-gradient(royalblue, white 99%);
+}
+.thursday_Trick {
+	background: -webkit-linear-gradient(deepskyblue, royalblue 70%, white 99%);
+	background: -o-linear-gradient(deepskyblue, royalblue 70%, white 99%);
+	background: -moz-linear-gradient(deepskyblue, royalblue 70%, white 99%);
+	background: linear-gradient(deepskyblue, royalblue 70%, white 99%);
+}
+.friday {
+	background: -webkit-linear-gradient(deepskyblue, white 99%);
+	background: -o-linear-gradient(deepskyblue, white 99%);
+	background: -moz-linear-gradient(deepskyblue, white 99%);
+	background: linear-gradient(deepskyblue, white 99%);
+}
+.friday_Trick {
+	background: -webkit-linear-gradient(darkviolet, deepskyblue 70%, white 99%);
+	background: -o-linear-gradient(darkviolet, deepskyblue 70%, white 99%);
+	background: -moz-linear-gradient(darkviolet, deepskyblue 70%, white 99%);
+	background: linear-gradient(darkviolet, deepskyblue 70%, white 99%);
+}
+.saturday {
+	background: -webkit-linear-gradient(darkviolet, white 99%);
+	background: -o-linear-gradient(darkviolet, white 99%);
+	background: -moz-linear-gradient(darkviolet, white 99%);
+	background: linear-gradient(darkviolet, white 99%);
+}
+.saturday_Trick {
+	background: -webkit-linear-gradient(red, darkviolet 70%, white 99%);
+	background: -o-linear-gradient(red, darkviolet 70%, white 99%);
+	background: -moz-linear-gradient(red, darkviolet 70%, white 99%);
+	background: linear-gradient(red, darkviolet 70%, white 99%);
+}
+.instructionLine {
+	font-family: "Aleo_Light";
+	position: absolute;
+	bottom: 0.459%;
+	left: 41.284%;
+	color: #666666;
+}
+
+.name_Container {
+	width: 70.642%;
+	height: 6.271%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4.587%;
+}
+.dayName {
+	font-family: "Archistico_Bold";
+	text-align: center;
+	float: left;
+	width: 14.285%;
+}
+.dayName:nth-of-type(1) {
+	color: red;
+}
+.dayName:nth-of-type(2) {
+	color: orange;
+}
+.dayName:nth-of-type(3) {
+	color: gold;
+}
+.dayName:nth-of-type(4) {
+	color: green;
+}
+.dayName:nth-of-type(5) {
+	color: royalblue;
+}
+.dayName:nth-of-type(6) {
+	color: deepskyblue;
+}
+.dayName:nth-of-type(7) {
+	color: darkviolet;
+}
+.previous_Container, .next_Container {
+	width: 14.679%;
+	height: 64.407%;
+	margin-top: 2.752%;
+	float: left;
+}
+.previous_Container div, .next_Container div {
+	width: 100%;
+	height: 21.053%;
+	margin-top: 93.75%;
+	cursor: pointer;
+}
+.previous_Container div h3, .next_Container div h3 {
+	font-family: "Archistico_Bold";
+	text-align: center;
+}
+.previousMonth_Button, .nextMonth_Button {
+	width: 31.25%;
+	height: 12.5%;
+	margin-left: 34.375%;
+	margin-top: 6.25%;
+}
+.color {
+	color: red;
+}
+.number_Container {
+	width: 70.642%;
+	height: 54.237%;
+	margin-top: 1.835%;
+	float: left;
+}
+.dateNumber {
+	font-family: "Archistico_Bold";
+	text-align: center;
+	margin-top: 2.597%;
+	float: left;
+	width: 14.285%;
+	height: 12.5%;
+}
+.dateNumber div {
+	width: 18.181%;
+	height: 12.5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4.545%;
+	border-radius: 25% / 100%;
+}
+.dateNumber:nth-of-type(7n+1) div {
+	background-color: red;
+}
+.dateNumber:nth-of-type(7n+2) div {
+	background-color: orange;
+}
+.dateNumber:nth-of-type(7n+3) div {
+	background-color: yellow;
+}
+.dateNumber:nth-of-type(7n+4) div {
+	background-color: green;
+}
+.dateNumber:nth-of-type(7n+5) div {
+	background-color: royalblue;
+}
+.dateNumber:nth-of-type(7n+6) div {
+	background-color: deepskyblue;
+}
+.dateNumber:nth-of-type(7n) div {
+	background-color: darkviolet;
+}
+
+.thisDay {
+	font-family: "Archistico_Bold";
+	text-align: center;
+	margin-top: 1.298%;
+	float: left;
+	width: 14.285%;
+	height: 12.5%;
+}
+.thisDay div {
+	width: 54.545%;
+	height: 12.5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4.545%;
+	border-radius: 8.333% / 100%;
+}
+.foot_Container {
+	width: 80.734%;
+	height: 13.559%;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+.decorationBox2 {
+	width: 77.982%;
+	height: 0.678%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 0.235% / 50%;
+	opacity: 0.7;
+}
+.decorationBox2_Sunday {
+	background: -webkit-linear-gradient(left, white, red);
+	background: -o-linear-gradient(right, white, red);
+	background: -moz-linear-gradient(right, white, red);
+	background: linear-gradient(to right, white, red);
+}
+.decorationBox2_Monday {
+	background: -webkit-linear-gradient(left, white, orange);
+	background: -o-linear-gradient(right, white, orange);
+	background: -moz-linear-gradient(right, white, orange);
+	background: linear-gradient(to right, white, orange);
+}
+.decorationBox2_Tuesday {
+	background: -webkit-linear-gradient(left, white, gold);
+	background: -o-linear-gradient(right, white, gold);
+	background: -moz-linear-gradient(right, white, gold);
+	background: linear-gradient(to right, white, gold);
+}
+.decorationBox2_Wednesday {
+	background: -webkit-linear-gradient(left, white, green);
+	background: -o-linear-gradient(right, white, green);
+	background: -moz-linear-gradient(right, white, green);
+	background: linear-gradient(to right, white, green);
+}
+.decorationBox2_Thursday {
+	background: -webkit-linear-gradient(left, white, royalblue);
+	background: -o-linear-gradient(right, white, royalblue);
+	background: -moz-linear-gradient(right, white, royalblue);
+	background: linear-gradient(to right, white, royalblue);
+}
+.decorationBox2_Friday {
+	background: -webkit-linear-gradient(left, white, deepskyblue);
+	background: -o-linear-gradient(right, white, deepskyblue);
+	background: -moz-linear-gradient(right, white, deepskyblue);
+	background: linear-gradient(to right, white, deepskyblue);
+}
+.decorationBox2_Saturday {
+	background: -webkit-linear-gradient(left, white, darkviolet);
+	background: -o-linear-gradient(right, white, darkviolet);
+	background: -moz-linear-gradient(right, white, darkviolet);
+	background: linear-gradient(to right, white, darkviolet);
+}
+.year_Container {
+	width: 11.363%;
+	height: 37.5%;
+	margin-top: 3.409%;
+	float: left;
+	font-family: "Archistico_Bold";
+	text-align: center;
+}
+.month_Container {
+	width: 3.409%;
+	height: 37.5%;
+	border-radius: 100%;
+	margin-left: 1.704%;
+	margin-right: 1.704%;
+	margin-top: 3.409%;
+	opacity: 0.4;
+	float: left;
+	cursor: pointer;
+}
+.month_Container h4 {
+	margin-top: 16.666%;
+	font-family: "Archistico_Bold";
+	text-align: center;
+}
+.tableContainer {
+	width: 91.744%;
+	height: 76.271%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6% 2% / 13.333% 4.444%;
+}
+.table_Sunday {
+	background: -webkit-linear-gradient(white, rgba(255,198,198,0.5) 40%, white 95%);	
+	background: -o-linear-gradient(white, rgba(255,198,198,0.5) 40%, white 95%);	
+	background: -moz-linear-gradient(white, rgba(255,198,198,0.5) 40%, white 95%);	
+	background: linear-gradient(white, rgba(255,198,198,0.5) 40%, white 95%);	
+}
+.table_Monday {
+	background: -webkit-linear-gradient(white, rgba(255,214,173,0.5) 40%, white 95%);	
+	background: -o-linear-gradient(white, rgba(255,214,173,0.5) 40%, white 95%);	
+	background: -moz-linear-gradient(white, rgba(255,214,173,0.5) 40%, white 95%);	
+	background: linear-gradient(white, rgba(255,214,173,0.5) 40%, white 95%);	
+}
+.table_Tuesday {
+	background: -webkit-linear-gradient(white, rgba(255,255,181,0.5) 40%, white 95%);	
+	background: -o-linear-gradient(white, rgba(255,255,181,0.5) 40%, white 95%);	
+	background: -moz-linear-gradient(white, rgba(255,255,181,0.5) 40%, white 95%);	
+	background: linear-gradient(white, rgba(255,255,181,0.5) 40%, white 95%);	
+}
+.table_Wednesday {
+	background: -webkit-linear-gradient(white, rgba(184,255,184,0.5) 40%, white 95%);	
+	background: -o-linear-gradient(white, rgba(184,255,184,0.5) 40%, white 95%);	
+	background: -moz-linear-gradient(white, rgba(184,255,184,0.5) 40%, white 95%);	
+	background: linear-gradient(white, rgba(184,255,184,0.5) 40%, white 95%);	
+}
+.table_Thursday {
+	background: -webkit-linear-gradient(white, rgba(163,194,255,0.5) 40%, white 95%);	
+	background: -o-linear-gradient(white, rgba(163,194,255,0.5) 40%, white 95%);	
+	background: -moz-linear-gradient(white, rgba(163,194,255,0.5) 40%, white 95%);	
+	background: linear-gradient(white, rgba(163,194,255,0.5) 40%, white 95%);	
+}
+.table_Friday {
+	background: -webkit-linear-gradient(white, rgba(178,255,255,0.5) 40%, white 95%);	
+	background: -o-linear-gradient(white, rgba(178,255,255,0.5) 40%, white 95%);	
+	background: -moz-linear-gradient(white, rgba(178,255,255,0.5) 40%, white 95%);	
+	background: linear-gradient(white, rgba(178,255,255,0.5) 40%, white 95%);	
+}
+.table_Saturday {
+	background: -webkit-linear-gradient(white, rgba(219,184,255,0.5) 40%, white 95%);	
+	background: -o-linear-gradient(white, rgba(219,184,255,0.5) 40%, white 95%);	
+	background: -moz-linear-gradient(white, rgba(219,184,255,0.5) 40%, white 95%);	
+	background: linear-gradient(white, rgba(219,184,255,0.5) 40%, white 95%);	
+}
+.timeZone {
+	position: relative;
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.timeZone td {
+	border: 1px solid rgba(255,92,92, 0.7);
+}
+.timeZone tr:first-child td:first-child {
+	border-top-left-radius: 72% 80%;
+}
+.timeZone tr:first-child td:last-child {
+	border-top-right-radius: 24% 26.666%; 
+}
+.timeZone tr:last-child td:first-child {
+	border-bottom-left-radius: 24% 26.666%; 
+}
+.timeZone tr:last-child td:last-child {
+	border-bottom-right-radius: 72% 80%;
+}
+.latitude, .longitude {
+	position: absolute;
+	width: 4.128%;
+	height: 2.951%;
+	text-align: center;
+	color: #5D5D5D;;
+}
+.latitude:nth-of-type(2) {
+	bottom: 95.246%;
+}
+.latitude:nth-of-type(3) {
+	bottom: 82.951%;
+}
+.latitude:nth-of-type(4) {
+	bottom: 70.656%;
+}
+.latitude:nth-of-type(5) {
+	bottom: 58.361%;
+}
+.latitude:nth-of-type(6) {
+	bottom: 46.066%;
+}
+.latitude:nth-of-type(7) {
+	bottom: 33.770%;
+}
+.latitude:nth-of-type(8) {
+	bottom: 21.475%;
+}
+.longitude {
+	bottom: 17.213%;
+}
+.longitude:nth-of-type(9) {
+	left: 2.569%;
+}
+.longitude:nth-of-type(10) {
+	left: 10.183%;
+}
+.longitude:nth-of-type(11) {
+	left: 17.798%;
+}
+.longitude:nth-of-type(12) {
+	left: 25.413%;
+}
+.longitude:nth-of-type(13) {
+	left: 33.119%;
+}
+.longitude:nth-of-type(14) {
+	left: 40.734%;
+}
+.longitude:nth-of-type(15) {
+	left: 48.349%;
+}
+.longitude:nth-of-type(16) {
+	left: 56.055%;
+}
+.longitude:nth-of-type(17) {
+	left: 63.670%;
+}
+.longitude:nth-of-type(18) {
+	left: 71.284%;
+}
+.longitude:nth-of-type(19) {
+	left: 78.991%;
+}
+.longitude:nth-of-type(20) {
+	left: 86.605%;
+}
+.longitude:nth-of-type(21) {
+	left: 94.220%;
+}
+.city_Dot {
+	position: absolute;
+	border-radius: 100%;
+	background-color: #E8E8E8;
+	cursor: crosshair;
+	z-index: 2;
+}
+.city_Dot p {
+	display: none;
+}
+.cityName {
+	margin-top: 5.505%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 77.064%;
+	height: 9.836%;
+}
+.cityName h4 {
+	width: 14.285%;
+	margin-bottom: 1.190%;
+	text-align: center;
+	float: left;
+	cursor: crosshair;
+}
+.London_Dot {
+	left: 49.449%;
+	top: 19.016%;
+}
+.Paris_Dot {
+	left: 50.367%;
+	top: 20.656%;
+}
+.Taipei_Dot {
+	left: 80.836%;
+	top: 30%;
+}
+.Amsterdam_Dot {
+	left: 51.284%;
+	top: 18.852%;
+}
+.Denver_Dot {
+	left: 23.211%;
+	top: 23.770%;
+}
+.Berlin_Dot {
+	left: 53.303%;
+	top: 18.689%;
+}
+.Tokyo_Dot {
+	left: 85.688%;
+	top: 25.410%;
+}
+.Moscow_Dot {
+	left: 59.817%;
+	top: 17.213%;
+}
+.Canberra_Dot {
+	left: 87.982%;
+	top: 54.590%;
+}
+.Wellington_Dot {
+	left: 94.587%;
+	top: 57.049%;
+}
+.Ottawa_Dot {
+	left: 30.642%;
+	top: 21.475%;
+}
+.Beijing_Dot {
+	left: 79.725%;
+	top: 23.770%;
+}
+.Brasilia_Dot {
+	left: 37.798%;
+	top: 46.721%;
+}
+.Pretoria_Dot {
+	left: 57.156%;
+	top: 50.820%;
+}
+.showTime {
+	position: absolute;
+	left: 5.505%;
+	bottom: 24.590%;
+}
+.timeContainer h6 {
+	font-family: "Aleo_Light";
+	position: absolute;
+	left: 5.505%;
+	bottom: 24.59%;
+	color: #666666;
+}
+.DenverName span, .PretoriaName span {
+	color: red;
+}
+.OttawaName span, .MoscowName span {
+	color: orange;
+}
+.BrasiliaName span, .TaipeiName span {
+	color: gold;
+}
+.LondonName span, .BeijingName span {
+	color: green;
+}
+.ParisName span, .TokyoName span {
+	color: royalblue;
+}
+.BerlinName span, .CanberraName span {
+	color: deepskyblue;
+}
+.AmsterdamName span, .WellingtonName span {
+	color: darkviolet;
+}

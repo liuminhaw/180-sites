@@ -1,0 +1,52 @@
+// Details of decision machine
+
+For red
+{
+	main red: rgb(255,85,85)
+	dark red: rgb(213,13,13)
+	light red: rgb(255,234,234)
+	decision dark: rgb(255,85,85)
+	decision light: rgb(255,147,147)
+	number color: rgb(84,0,0)
+	for check button: rgb(170,0,0)
+}
+For purple
+{
+	main purple: rgb(213,100,213)
+	dark purple: rgb(153,0,153)
+	light purple: rgb(246,207,246)
+	decision dark: rgb(213,100,213)
+	decision light: rgb(242,177,242)
+	number color: rgb(52,0,52)
+	for check button: rgb(100,0,100)
+}
+For blue
+{
+	main blue: rgb(50,154,233)
+	dark blue: rgb(6,91,216)
+	light blue: rgb(224,235,252)
+	decision dark: rgb(50,154,233)
+	decision light: rgb(187,223,251)
+	number color: rgb(1,28,68)
+	for check button: rgb(4,51 121)
+}
+For green
+{
+	main green: rgb(42,203,0)
+	dark green: rgb(27,129,0)
+	light green: rgb(208,249,197)
+	decision dark: rgb(42,203,0)
+	decision light: rgb(186,247,170)
+	number color: rgb(7,35,0)
+	for check button: rgb(13,62,0)
+}
+For orange
+{
+	main ornage: rgb(255,151,0)
+	dark orange: rgb(149,88,0)
+	light orange: rgb(255,240,217)
+	decision dark: rgb(255,151,0)
+	decision light: rgb(255,203,127)
+	number color: rgb(64,38,0)
+	for check button: rgb(70,41,0)
+}

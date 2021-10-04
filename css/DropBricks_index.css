@@ -1,0 +1,254 @@
+/* Drop Bricks -- style sheet for website Drop Bricks */
+@font-face {
+	font-family: "Gondola";
+	src: url("../Fonts/Gondola/gondola_sd-webfont.eot");
+	src: url("../Fonts/Gondola/gondola_sd-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/Gondola/gondola_sd-webfont.woff") format("woff"),
+	     url("../Fonts/Gondola/gondola_sd-webfont.ttf") format("truetype"),
+	     url("../Fonts/Gondola/gondola_sd-webfont.svg") format("svg");
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("../Fonts/OpenSans_Light/opensans-light-webfont.eot");
+	src: url("../Fonts/OpenSans_Light/opensans-light-webfont?#iefix") format("embedded-opentype"),
+	     url("../Fonts/OPenSans_Light/opensans-light-webfont.woff") format("woff"),
+	     url("../Fonts/OPenSans_Light/opensans-light-webfont.ttf") format("truetype"),
+	     url("../Fonts/OPenSans_Light/opensans-light-webfont.svg") format("svg");
+}
+@font-face {
+	font-family: "OpenSans_Regular";
+	src: url("../Fonts/OpenSans_Regular/opensans-regular-webfont.eot");
+	src: url("../Fonts/OpenSans_Regular/opensans-regular-webfont?#iefix") format("embedded-opentype"),
+	     url("../Fonts/OPenSans_Regular/opensans-regular-webfont.woff") format("woff"),
+	     url("../Fonts/OPenSans_Regular/opensans-regular-webfont.ttf") format("truetype"),
+	     url("../Fonts/OPenSans_Regular/opensans-regular-webfont.svg") format("svg");
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Gondola";
+}
+body {
+	background-color: rgb(42, 48, 80);
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+div.gameOver h3, div.closeContainer h3, footer p {
+	cursor: pointer;
+}
+img.brickImg {
+	cursor: crosshair;
+}
+
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+header h1 {
+	font-family: "Gondola";
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+div.bigContainer {
+	width: 950px;
+	height: 500px;
+	margin: 50px auto;
+}
+div.leftContainer, div.rightContainer {
+	width: 250px;
+	height: 500px;
+	float: left;
+}
+div.mainContainer {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	float: left;
+	background-image: url("../images/DropBricks/Background.png");
+	background-size: 450px 500px;
+	text-align: center;
+}
+div.gameContainer {
+	position: relative;
+	width: 450px;
+	height: 480px;
+	margin-top: 20px;
+}
+div.gameOver, div.instructionContainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 450px;
+	height: 500px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	display: none;
+}
+div.gameOver {
+	background-color: rgba(42, 48, 80, 0.7);
+}
+div.restartContainer {
+	height: 100px;
+	margin-top: 200px;
+}
+div.restartContainer p {
+	font-size: 30px;
+	padding-top: 15px;
+	color: white;
+}
+div.restartContainer h3 {
+	width: 100px;
+	font-size: 24px;
+	margin: 15px auto;
+	font-weight: normal;
+	color: white;
+}
+div.instructionContainer {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+div.instructions {
+	height: 300px;
+	width: 400px;
+	margin: 100px auto 50px auto;
+}
+div.instructions p {
+	font-family: "OpenSans_Regular";
+	text-align: left;
+	margin: 15px 0px;
+	font-size: 19px;
+}
+div.closeContainer h3 {
+	width: 80px;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0px auto;
+}
+
+
+img.brickImg {
+	position: absolute;
+	left: 175px;
+	width: 100px;
+	height: 40px;
+	display: block;
+	transition: bottom 0.8s;
+}
+img.preImg {
+	position: static;
+	width: 150px;
+	height: 30px;
+	margin: 5px auto;
+	display: block;
+}
+
+
+
+
+div.stepLeft {
+	width: 200px;
+	height: 200px;
+	margin: 25px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 30px;
+}
+div.stepLeft h2, div.nextSeries h2, div.scoreBox h2 {
+	font-family: "Gondola";
+	font-size: 24px;
+	text-align: center;
+	width: 200px;	
+	height: 50px;
+	padding-top: 25px;
+}
+div.steps {
+	width: 200px;
+	height: 150px;
+	text-align: center;
+}
+div.steps p {
+	font-family: "OpenSans";
+	font-size: 120px;
+	padding-top: 15px;
+}
+div.nextSeries {
+	width: 200px;
+	height: 225px;
+	margin: 0px auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 30px;
+}
+div.next {
+	width: 200px;
+	height: 145px;
+	margin-top: 30px;
+}
+div.nextBrick {
+	width: 150px;
+	height: 30px;
+	margin: 5px auto;
+	background-color: orange;
+	border-radius: 5px;
+}
+div.scoreBox {
+	width: 200px;
+	height: 300px;
+	margin: 100px auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 30px;
+}
+div.score {
+	width: 200px;
+	height: 250px;
+	text-align: center;
+}
+div.score p {
+	font-family: "OpenSans";
+	font-size: 140px;
+	margin-top: 35px;
+}
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+footer p {
+	font-family: "Opensans";
+	font-size: 18px;
+	margin: 15px;
+	padding-left: 5px;
+	color: white;
+	display: inline-block;
+	border-left: 18px solid white;
+}
+
+img.twinkle {
+	animation-name: twinkle;
+	animation-duration: 2s;
+	opacity: 0.4;
+}
+@keyframes twinkle {
+	0%	{opacity: 1;}
+	20%	{opacity: 0.4;}
+	40%	{opacity: 1;}
+	60%	{opacity: 0.4;}
+	80%	{opacity: 1;}
+	100%	{opacity: 0.4;}
+}

@@ -1,0 +1,165 @@
+/* GreedySnake_index.css -- style sheet for website Greedy snake */
+
+@font-face {
+	font-family: "commando";
+	src: url("../Fonts/Commando/commando-webfont.eot");
+	src: url("../Fonts/Commando/commando-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/Commando/commando-webfont.woff") format("woff"),
+	     url("../Fonts/Commando/commando-webfont.ttf") format("truetype"),
+	     url("../Fonts/Commando/commando-webfont.svg") format("svg");
+}
+@font-face {
+	font-family: "sf_collegiate";
+	src: url("../Fonts/sf_collegiate/sf_collegiate-webfont.eot");
+	src: url("../Fonts/sf_collegiate/sf_collegiate-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/sf_collegiate/sf_collegiate-webfont.woff") format("woff"),
+	     url("../Fonts/sf_collegiate/sf_collegiate-webfont.ttf") format("truetype"),
+	     url("../Fonts/sf_collegiate/sf_collegiate-webfont.svg") format("svg");
+}
+@font-face {
+	font-family: "anudaw";
+	src: url("../Fonts/AnuDaw/anudrg-webfont.eot");
+	src: url("../Fonts/AnuDaw/anudrg-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/AnuDaw/anudrg-webfont.woff") format("woff"),
+	     url("../Fonts/AnuDaw/anudrg-webfont.ttf") format("truetype"),
+	     url("../Fonts/AnuDaw/anudrg-webfont.svg") format("svg");
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+}
+a, section.leftSection, section.rightSection, div.startContainer, div.finishContainer a {
+	cursor: pointer;
+	text-decoration: none;
+}
+section.leftSection a:visited, section.rightSection a:visited {
+	color: black;
+}
+div.bigContainer {
+	width: 1048px;
+	height: 578px;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top: 20px;
+}
+main {
+	position: relative;
+	width: 848px;
+	height: 578px;
+	border: 4px double black;
+	float: left;
+}
+div.startContainer {
+	width: 140px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 260px;
+}
+div.startContainer h2 {
+	font-family: "anudaw";
+	font-weight: normal;
+	font-size: 30px;
+	padding-top: 10px;
+	color: rgb(123,123,123);
+	transition: all .5s linear;
+}
+div.startContainer h2:hover {
+	padding-top: 5px;
+	color: black;
+}
+div.scoreContainer {
+	font-family: "commando";
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 24px;
+	opacity: 0;
+}
+div.submainTop, div.submainBottom {
+	position: absolute;
+	text-align: center;
+	width: 840px;
+	height: 285px;
+	display: none;
+	opacity: 0;
+}
+div.submainTop {
+	top: 0px;
+}
+div.submainBottom {
+	bottom: 0px;
+}
+div.submainTop h3, div.submainBottom h3 {
+	font-family: "commando";
+	font-weight: normal;
+	font-size: 285px;
+	color: rgb(220,220,220);
+	padding-top: 10px;
+}	
+div.finishContainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 840px;
+	height: 570px;
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 200px;
+	display: none;
+	z-index: 3;
+}
+div.finishContainer h2 {
+	font-family: "anudaw";
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.finishContainer a {
+	font-family: "commando";
+	font-size: 40px;
+	width: 200px;
+	color: white;
+	margin: 0px auto;
+}
+section.leftSection, section.rightSection {
+	width: 100px;
+	height: 578px;
+}
+section.leftSection {
+	float: left;
+}
+section.rightSection {
+	float: right;
+}
+section.leftSection h1, section.rightSection h1 {
+	font-family: "sf_collegiate";
+	font-weight: normal;
+	color: black;
+}
+section.leftSection h1 {
+	font-size: 90px;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+section.rightSection h1 {
+	padding-top: 10px;
+	margin-top: 50px;
+	font-size: 90px;
+}
+div.snake {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(123,123,123);
+	opacity: 0;
+	z-index: 2;
+}
+div.food {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: radial-gradient(circle, white, red);
+}

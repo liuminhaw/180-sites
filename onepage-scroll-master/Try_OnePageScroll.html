@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>This is a try</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+	<link href="onepage-scroll.css" rel="stylesheet" type="text/css">
+	
+	<style>
+	.page1 {
+		background-color: green;
+	}
+	h1 {
+		color: pink;
+	}
+	.page2 {
+		background-color: blue;
+	}
+	h2 {
+		color: yellow;
+	}
+	.page3 {
+		background-color: grey;
+	}
+	h3 {
+		color: black;
+	}
+	.page4 {
+		background-color: white;
+	}
+	h4 {
+		color: blue;
+	}
+	</style>
+
+	<script>
+	$(document).ready(function() {
+		$(".main").onepage_scroll({
+			sectionContainer: "section",
+			responsiveFallback: 600,
+			loop: true
+		});
+	});
+	</script>
+</head>
+<body>
+	<div class="main">
+	<section class="page1">
+		<h1>Incredible</h1>
+		<p>Does this really work?</p>
+	</section>
+	<section class="page2">
+		<h2>Amazing</h2>
+		<p>Please work</p>
+	</section>
+	<section class="page3">
+		<h3>Wonderful</h3>
+		<p>How talented</p>
+	</section>
+	<section class="page4">
+		<h4>Cool</h4>
+		<p>be patient</p>
+	</section>
+	</div>
+</body>
+</html>

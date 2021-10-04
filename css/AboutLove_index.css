@@ -1,0 +1,49 @@
+/*About Love index*/
+
+@font-face {
+	font-family: idolwild;
+	src: url("../Fonts/idolwild.ttf") format("truetype");
+}
+
+#head_container {
+	text-align: center;
+	font-family: "idolwild";
+}
+div h1 {
+	color: #6E6E6E;
+	font-size: 40pt;
+}
+div p {
+	color: #848484;
+	font-size: 20pt;
+}
+
+#subject_container {
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+	width: 630px;
+	margin-top: 60px;
+}
+
+.Heart_Button {
+	width: 280px;
+	height: 280px;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.Lips_Button {
+	width: 280px;
+	height: 140px;
+	margin-left: 30px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#hug {
+	color: #DF0101;
+}
+#kiss {
+	color: #FF00FF;
+}

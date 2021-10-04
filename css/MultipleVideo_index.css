@@ -1,0 +1,85 @@
+/*Multiple choice video index*/
+
+@font-face {
+	font-family: idolwild;
+	src: url("../Fonts/idolwild.ttf") format("truetype");
+}
+
+#head_container {
+	text-align: center;
+	font-family: "idolwild";
+}
+h1 {
+	font-size: 40pt;
+}
+#head_container p {
+	color: #848484;
+	font-size: 20pt;
+}
+
+#subject_container {
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+iframe {
+	border: 0px;
+}
+#notice_container {
+	font-family: "idolwild";
+	width: 600px;
+	height: 50px;
+	background-color: black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	color: white;
+	border-radius: 30px;
+	margin: 10px auto 0px auto;
+	line-height: 25px;
+}
+footer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 853px;
+	text-align: center;
+}
+.Back {
+	width: 40px;
+	height: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+a {
+	border: 0px;
+	text-decoration: none;
+}
+
+#BackLips {
+	width: 40px;
+	height: 20px;
+	margin: 10px 5px 10px 5px;
+}
+#BackWayne {
+	width: 40px;
+	height: 16px;
+	margin: 12px 5px 12px 5px;
+}
+#kiss {
+	color: #FF00FF;
+}
+#Undress {
+	color: #DF0101;
+}
+#Federer {
+	color: #593987;
+}
+#Nadal {
+	color: #C75A18;
+}
+#Batman {
+	color: #662D91;
+}
+#Lego {
+	color: red;
+}

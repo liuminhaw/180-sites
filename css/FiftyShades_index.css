@@ -1,0 +1,48 @@
+/*Fifty Shades index*/
+
+@font-face {
+	font-family: idolwild;
+	src: url("../Fonts/idolwild.ttf") format("truetype");
+}
+
+#head_container {
+	text-align: center;
+	font-family: "idolwild";
+}
+div h1 {
+	color: #6E6E6E;
+	font-size: 40pt;
+}
+div p {
+	color: #848484;
+	font-size: 20pt;
+}
+
+.Wayne_Button {
+	width: 350px;
+	height: 140px;
+	margin-right: 30px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.Lego_Button {
+	width: 280px;
+	height: 280px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#subject_container {
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+	width: 700px;
+	margin-top: 60px;
+}
+
+.red {
+	color: red;
+}
+.purple {
+	color: #662D91;
+}

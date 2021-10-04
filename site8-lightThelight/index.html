@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>LMHaw - Light the Light</title>
+	<link rel="stylesheet" href="../css/css_reset.css">
+	<link rel="stylesheet" href="../css/LighttheLight_index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="../javascript/LighttheLight_javascript.js"></script>
+	<!--[if It IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<[endif]-->
+</head>
+<body>
+	<header>
+		<h1>Light the Light</h1>
+		<!-- <h3>Blog</h3> -->
+		<!-- <h3>Homepage</h3> -->
+		<h2>Instruction</h3>
+		<div class="instruction_Container">
+			<p><span>CIRCLES</span> on both sides are <span>POWERS</span><br/>
+			<span>SQUARES</span> in the middle are <span>LIGHTS</span><br/>
+			<span>LINES</span> are <span>WIRES</span><br/></p>
+
+			<p><span>COLOR</span> the wires by clicking it<br/>
+			Different colors can be chosen at <span>BOTTOM-RIGHT CORNER</span><br/></p>
+
+			<p>When the <span>POWER</span> is <span>CONNECTED</span> to the <span>LIGHT</span> with same color, 
+			the <span>LIGHT</span> can be <span>TURNED ON/OFF</span> by the power.</p>
+		</div>
+	</header>
+	
+	<div class="big_Container">
+		<div class="power_Container">
+			<div class="power power_Left" data-count="5"></div>
+			<div class="power power_Left" data-count="10"></div>
+			<div class="power power_Left" data-count="15"></div>
+		</div>
+		<div class="wire_Container">
+			<div class="blank_Wire"></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle node_TopLeft"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="0"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="1"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="2"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="3"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="4"><div></div></div>
+			<!-- Breaking Line-->
+			<div class="blank"></div>
+			<div class="left_Row" data-count="0"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="1"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="2"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="3"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="4"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="head_Wire" data-count="5"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="5"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="6"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="7"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="8"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="9"><div></div></div>
+			<!--Breaking Line-->
+			<div class="blank"></div>
+			<div class="left_Row" data-count="5"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="6"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="7"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="8"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="9"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="head_Wire" data-count="10"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="10"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="11"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="12"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="13"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="14"><div></div></div>
+			<!--Breaking Line-->
+			<div class="blank"></div>
+			<div class="left_Row" data-count="10"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="11"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="12"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="13"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="14"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="head_Wire" data-count="15"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="15"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="16"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="17"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="18"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="19"><div></div></div>
+			<!--Breaking Line-->
+			<div class="blank"></div>
+			<div class="left_Row" data-count="15"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="16"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="17"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="18"><div></div></div>
+			<div class="blank"></div>
+			<div class="left_Row" data-count="19"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="blank_Wire"></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle node_BottomLeft"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="20"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="21"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="22"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="23"><div></div></div>
+			<div class="left_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="left_Column" data-count="24"><div></div></div>
+		</div>
+		<div class="light_Container">
+			<div class="light"></div>
+			<div class="light"></div>
+			<div class="light"></div>
+			<div class="light"></div>
+			<div class="light"></div>
+		</div>
+		<div class="wire_Container">
+			<div class="right_Column" data-count="24"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="23"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="22"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="21"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="20"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle node_TopRight"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="blank_Wire"></div>
+			<!-- Breaking Line-->
+			<div class="blank"></div>
+			<div class="right_Row" data-count="19"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="18"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="17"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="16"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="15"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="right_Column" data-count="19"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="18"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="17"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="16"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="15"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="tail_Wire" data-count="15"><div></div></div>
+			<!--Breaking Line-->
+			<div class="blank"></div>
+			<div class="right_Row" data-count="14"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="13"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="12"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="11"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="10"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="right_Column" data-count="14"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="13"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="12"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="11"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="10"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="tail_Wire" data-count="10"><div></div></div>
+			<!--Breaking Line-->
+			<div class="blank"></div>
+			<div class="right_Row" data-count="9"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="8"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="7"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="6"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="5"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="right_Column" data-count="9"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="8"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="7"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="6"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="5"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="tail_Wire" data-count="5"><div></div></div>
+			<!--Breaking Line-->
+			<div class="blank"></div>
+			<div class="right_Row" data-count="4"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="3"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="2"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="1"><div></div></div>
+			<div class="blank"></div>
+			<div class="right_Row" data-count="0"><div></div></div>
+			<div class="blank"></div>
+			<!--Breaking Line-->
+			<div class="right_Column" data-count="4"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="3"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="2"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="1"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="right_Column" data-count="0"><div></div></div>
+			<div class="right_Node">
+				<div class="node_Top"></div>
+				<div class="node_Left"></div>
+				<div class="node_Middle node_BottomRight"></div>
+				<div class="node_Right"></div>
+				<div class="node_Bottom"></div>
+			</div>
+			<div class="blank_Wire"><div></div></div>
+		</div>
+		<div class="power_Container">
+			<div class="power power_Right" data-count="15"></div>
+			<div class="power power_Right" data-count="10"></div>
+			<div class="power power_Right" data-count="5"></div>
+		</div>
+	</div>
+	<div class="color_Plate">
+		<h3>Wire Colors</h3>
+		<div class="color"><p>None</p></div>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="color color_Active"></div>
+	</div>
+</body>
+</html>

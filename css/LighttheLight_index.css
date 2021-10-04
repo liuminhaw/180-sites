@@ -1,0 +1,269 @@
+/* LighttheLight -- style sheet for website Light the Light */
+@font-face {
+	font-family: "open_Sans";
+	src: url("../Fonts/OpenSans_Light/opensans-light-webfont.eot");
+	src: url("../Fonts/OpenSans_Light/opensans-light-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/OpenSans_Light/opensans-light-webfont.woff") format("woff"),
+	     url("../Fonts/OpenSans_Light/opensans-light-webfont.ttf") format("truetype"),
+	     url("../Fonts/OpenSans_Light/opensans-light-webfont.svg") format("svg");
+}
+@font-face {
+	font-family: "Gong";
+	src: url("../Fonts/Gong/gong-webfont.eot");
+	src: url("../Fonts/Gong/gong-webfont.eot?#iefix") format("embedded-opentype"),
+	     url("../Fonts/Gong/gong-webfont.woff") format("woff"),
+	     url("../Fonts/Gong/gong-webfont.ttf") format("truetype"),
+	     url("../Fonts/Gong/gong-webfont.svg") format("svg");
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "open_Sans";
+}
+body {
+	background-color: rgb(60,60,60);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+header h2, header h3, div.color {
+	cursor: pointer;
+}
+header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(60,60,60);
+}
+header h1 {
+	font-weight: normal;
+	font-size: 22px;
+	color: rgb(192,226,255);
+	padding: 14px 24px;
+	float: left;
+}
+header h2, header h3 {
+	font-weight: normal;
+	font-size: 18px;
+	color: rgb(192,226,255);
+	padding: 10px 15px 8px 15px;
+	float: right;
+}
+header h2 {
+	color: rgb(114,114,114);
+	background-color: rgb(192,226,255);
+}
+div.instruction_Container {
+	position: relative;
+	right: 0px;
+	top: 0px;
+	width: 300px;
+	height: 500px;
+	border: 5px solid rgb(192,226,255);
+	border-top-style: none;
+	border-bottom-width: 10px;
+	background-color: rgba(255,255,255,0.9);
+	float: right;
+	display: none;
+	z-index: 2;
+}
+div.instruction_Container p {
+	text-align: center;
+	line-height: 22px;
+	color: black;
+	font-size: 18px;
+	margin: 40px 15px;
+}
+div.instruction_Container p span {
+	font-family: "Gong";
+	color: rgb(114,114,114);
+}
+div.big_Container {
+	width: 950px;
+	height: 500px;
+	margin: 30px auto 0 auto;
+}
+div.power_Container {
+	width: 50px;
+	height: 180px;
+	margin-top: 160px;
+	float: left;
+}
+div.wire_Container {
+	width: 400px;
+	height: 300px;
+	margin-top: 100px;
+	float: left;
+}
+div.light_Container {
+	width: 50px;
+	height: 370px;
+	margin-top: 65px;
+	float: left;
+}
+div.blank_Wire, div.blank,
+div.left_Node, div.right_Node,
+div.left_Row, div.right_Row, 
+div.left_Column, div.right_Column,
+div.head_Wire, div.tail_Wire {
+	float: left;
+}
+div.blank_Wire {
+	width: 50px;
+	height: 20px;
+}
+div.blank {
+	width: 50px;
+	height: 50px;
+}
+div.left_Node, div.right_Node {
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+div.node_Left, div.node_Middle, div.node_Right {
+	float: left;
+}
+div.node_Top, div.node_Bottom {
+	position: relative;
+	left: 5px;
+	width: 10px;
+	height: 5px;
+	clear: both;
+	transition-property: background-color;
+	transition-duration: .6s;
+	z-index: -1;
+}
+div.node_Middle {
+	width: 10px;
+	height: 10px;
+	background-color: rgb(192,226,255);
+}
+div.node_Left, div.node_Right {
+	width: 5px;
+	height: 10px;
+	transition-property: background-color;
+	transition-duration: .6s;
+}
+div.node_TopLeft {
+	border-top-left-radius: 10px;
+}
+div.node_BottomLeft {
+	border-bottom-left-radius: 10px;
+}
+div.node_TopRight {
+	border-top-right-radius: 10px;
+}
+div.node_BottomRight {
+	border-bottom-right-radius: 10px;
+}
+div.left_Column, div.right_Column, 
+div.right_Row, div.left_Row,
+div.head_Wire, div.tail_Wire {
+	width: 50px;
+	height: 20px;
+}
+div.left_Column div, div.right_Column div,
+div.head_Wire div, div.tail_Wire div {
+	width: 50px;
+	height: 10px;
+	margin-top: 5px;
+	background-color: #727272;
+}
+div.left_Row, div.right_Row {
+	width: 20px;
+	height: 50px;
+}
+div.left_Row div, div.right_Row div {
+	width: 10px;
+	height: 50px;
+	margin-left: 5px;
+	background-color: #727272;
+}
+div.left_Row div:hover, div.right_Row div:hover, 
+div.left_Column div:hover, div.right_Column div:hover, 
+div.head_Wire div:hover, div.tail_Wire div:hover {
+	opacity: 0.5;
+}
+div.head_Wire div{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+div.tail_Wire div{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+div.power {
+	width: 40px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+div.power_Right {
+	float: right;
+}
+div.light {
+	width: 50px;
+	height: 50px;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin: 20px auto 20px auto;
+	background: radial-gradient(circle, #3C3C3C, #3C3C3C);
+}
+div.light_Active {
+	background: radial-gradient(circle, #3C3C3C, pink);
+	border-color: pink;
+}
+div.color_Plate {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	border-top-left-radius: 30px;
+	width: 240px;
+	height: 80px;
+	background-color: rgba(114,114,114,0.7);
+}
+div.color_Plate h3 {
+	color: rgb(192,226,255);
+	font-size: 18px;
+	text-align: center;
+	margin-top: 5px;
+}
+div.color {
+	width: 40px;
+	height: 60px;
+	margin-top: 15px;
+	float: left;
+}
+div.color p {
+	font-size: 16px;
+}
+div.color:nth-of-type(1) {
+	background-color: rgb(206,206,206);
+}
+div.color:nth-of-type(2) {
+	background-color: rgb(254,73,68);
+}
+div.color:nth-of-type(3) {
+	background-color: rgb(239,239,68);
+}
+div.color:nth-of-type(4) {
+	background-color: rgb(86,206,94);
+}
+div.color:nth-of-type(5) {
+	background-color: rgb(144,81,179);
+}
+div.color:nth-of-type(6) {
+	background-color: rgb(64,158,199);
+}
+div.color_Active {
+	margin-top: 5px;
+}
+
+
+

@@ -1,0 +1,41 @@
+/*Tennis Master index*/
+
+@font-face {
+	font-family: idolwild;
+	src: url("../Fonts/idolwild.ttf") format("truetype");
+}
+
+#head_container {
+	text-align: center;
+	font-family: "idolwild";
+}
+
+div h1 {
+	color: #6E6E6E;
+	font-size: 40pt;
+}
+div p {
+	color: #848484;
+	font-size: 20pt;
+}
+
+.TennisMaster_Button {
+	width: 260px;
+	height: 260px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+#subject_container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 690px;
+	height: 260px;
+}
+
+#purple {
+	color: #593987;
+}
+#orange {
+	color: #C75A18;
+}

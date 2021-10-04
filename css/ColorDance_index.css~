@@ -1,0 +1,81 @@
+/*index of ColorDance*/
+
+body {
+	width: 100%;
+}
+header {
+	font-family: "Poiret One", Sans-serif;
+	font-size: 1.5em;
+	width: 274px;
+	height: 580px;
+	margin-top: 1%;
+	margin-right: 2%;
+	float: left;
+}
+#head {
+	text-align: center;
+	height: 85%;
+}
+#effect_bar {
+	font-size: 14pt;
+	text-align: left;
+	margin-left: 20%;
+	color: #707070;
+}
+#effect_bar h3 {
+	font-size: 20pt;
+	color: black;
+}	
+.fontcolor {
+	color: blue;
+}
+section {
+	font-family: "Poiret One", Sans-serif;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: 5%;
+	float: left;
+	width: 245px;
+	height: 580px;
+}
+#section {
+	height: 90%;
+}
+#section h2 {
+	font-size: 24pt;
+}
+#section ul {
+	font-size: 14pt;
+}
+#HideShowButton {
+	font-size: 14pt;
+	border-bottom: thin solid blue;
+	cursor: pointer;
+}
+.circle {
+	width: 8%;
+	height: 0px;
+	padding-top: 8%;
+	border-radius: 50%;
+	margin: 1%;
+	background-color: blue;
+	opacity: 0.7;
+	float: left;
+}
+#main_container {
+	float: left;
+	width: 40%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container {
+	width: 100%;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+}
+
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>LMHaw - Decision Machine</title>
+	<link rel="stylesheet" href="../css/css_reset.css">
+	<link rel="stylesheet" href="../css/DecisionMachine_index.css">
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+	<script src="../javascript/DecisionMachine_javaScript.js"></script>
+	<!--[if It IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<[endif]-->
+</head>
+
+<body>
+	<div class="bigContainer">
+		<header>
+			<h1>Decision Machine</h1>
+			<h3>We make great choices !</h3>
+		</header>
+		<aside>
+			<div class="buttonContainer">
+				<div class="Button">
+					<img class="addButton imageButton" src="../images/DecisionMachine/DecisionAdd_RedNormal.png" alt="Press this button to add choices" />
+				</div>
+				<div class="Button">
+					<img class="undoButton imageButton" src="../images/DecisionMachine/DecisionUndo_RedNormal.png" alt="Press this button to delete previous choice" />
+				</div>
+				<div class="Button">
+					<img class="resetButton imageButton" src="../images/DecisionMachine/DecisionReset_RedNormal.png" alt="Press this button to reset all settings" />
+				</div>
+				<div class="Button">
+					<img class="colorButton imageButton" src="../images/DecisionMachine/DecisionColor_RedNormal.png" alt="Press this button to change website's main color" />
+					<div class="colorPlate">
+						<img class="closeButton colorClose" src="../images/DecisionMachine/DecisionClose_RedNormal.png" alt="Close the plate" />
+						<div class="selectionPurple"></div>
+						<div class="selectionBlue"></div>
+						<div class="selectionGreen"></div>
+						<div class="selectionOrange"></div>
+					</div>
+				</div>
+				<div class="Button">
+					<div class="finalOptions">
+						<p>1</p>
+					</div>
+					<img class="finalButton imageButton" src="../images/DecisionMachine/DecisionFinalOptions_RedNormal.png" alt="This button decide how many options will be left when executed" />
+					<div class="optionPlate">
+						<img class="closeButton" src="../images/DecisionMachine/DecisionCloseLight_RedNormal.png" alt="Close the plate" />
+						<h4>Enter the number of options left after execution</h4>
+						<form><input id="focusStyle" type="text" name="optionleft" maxlength="2" autocomplete="off"/></form>
+						<img class="checkButton controlButton" src="../images/DecisionMachine/DecisionCheck_RedNormal.png" alt="Decide the number of options left" />
+					</div>
+				</div>
+				<div class="Button">
+					<img class="executeButton imageButton" src="../images/DecisionMachine/DecisionExecute_RedNormal.png" alt="Press this button to start executing" />
+					<div class="executePlate middlePlate">
+						<h4>You should have more than<br>1 option<br>to run the machine</h4>
+						<img class="okayButton controlButton" src="../images/DecisionMachine/DecisionOkay_RedNormal.png" alt="Click to comfirm execute notice" />
+					</div>
+					<div class="resetPlate middlePlate">
+						<h4>Reset all  options?</h4>
+						<img class="YesButton controlButton" src="../images/DecisionMachine/DecisionYes_RedNormal.png" alt="Press to confirm reset" />
+						<img class="NoButton controlButton" src="../images/DecisionMachine/DecisionNo_RedNormal.png" alt="Press to refuse reset" />
+					</div>
+				</div>
+			</div>
+			<div class="replayContainer">
+				<h3 class="replayButton">ADJUST OLD</h3>
+				<h3 class="startoverButton">START NEW</h3>
+			</div>
+		</aside>
+		<main>
+			<div class="instructionContainer">
+				<p>
+					The <span class="color">Decision Machine</span> helps you to make choices<br>
+					whenever you can't make up your mind!<br><br>
+					Use the <span class="color">add button</span> and <span class="color">undo button</span> to take control<br>
+					of options.<br><br>
+					The <span class="color">reset button</span> let you start the entire machine from the beginning.<br><br>
+					With the <span class="color">color button</span>,<br>
+					you can change to the color you like,<br>
+					and there are five choices.<br><br>
+					<span class="color">OptionsLeft button</span> helps you to decide how many options will be left<br>
+					after the machine works.<br><br>
+					At last,<br>
+					the <span class="color">run button</span> start off the machine!!! 	
+				</p>
+			</div>
+			<div class="optionContainer editOptionContainer">
+				<h4>Editing</h4>
+				<form>
+					<input id="insertChoice" type="text" name="newOption" autocomplete="off" maxlength="33" autofocus />
+				</form>
+				<img class="submitOption controlButton" src="../images/DecisionMachine/DecisionSubmit_RedNormal.png" alt="Submit the new option" />
+				<img class="cancelOption controlButton" src="../images/DecisionMachine/DecisionCancel_RedNormal.png" alt="Cancel the new option" />
+			</div>
+		</main>
+		<footer>
+		</footer>
+		<div class="resetMask"></div>
+	</div>
+</body>
+</html>
